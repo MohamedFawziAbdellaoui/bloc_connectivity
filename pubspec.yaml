@@ -1,10 +1,10 @@
 name: bloc_connectivity
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+repository: https://github.com/MohamedFawziAbdellaoui/bloc_connectivity.git
 
 environment:
-  sdk: '>=3.3.0-149.0.dev <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
