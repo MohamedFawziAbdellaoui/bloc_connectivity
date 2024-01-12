@@ -1,5 +1,5 @@
 name: bloc_connectivity
-description: "A new Flutter package project."
+description: "This is a Flutter package used to wrap your application with the NetworkChecker Widget to continously check the network connectivity using Bloc."
 version: 0.0.1
 repository: https://github.com/MohamedFawziAbdellaoui/bloc_connectivity.git
 
