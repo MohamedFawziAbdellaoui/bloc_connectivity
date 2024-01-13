@@ -4,7 +4,8 @@ import 'package:bloc_connectivity/networking/bloc/network_connectivity_bloc.dart
 import 'package:flutter/material.dart';
 import 'package:mockito/mockito.dart';
 
-class MockNetworkConnectivityBloc extends Mock implements NetworkConnectivityBloc {}
+class MockNetworkConnectivityBloc extends Mock
+    implements NetworkConnectivityBloc {}
 
 void main() {
   late MockNetworkConnectivityBloc mockBloc;
@@ -13,7 +14,8 @@ void main() {
     mockBloc = MockNetworkConnectivityBloc();
   });
 
-  testWidgets('NetworkChecker shows dialog when offline', (WidgetTester tester) async {
+  testWidgets('NetworkChecker shows dialog when offline',
+      (WidgetTester tester) async {
     // Mock the bloc state to simulate offline connectivity
     when(mockBloc.state).thenReturn(NetworkConnectivityOffline());
 
@@ -21,7 +23,7 @@ void main() {
       MaterialApp(
         home: NetworkChecker(
           networkOffDialog: AlertDialog(
-            title: const  Text('Network Offline'),
+            title: const Text('Network Offline'),
             content: const Text('Please check your internet connection.'),
             actions: [
               TextButton(
@@ -47,5 +49,4 @@ void main() {
     await tester.tap(find.text('Retry'));
     // Add additional verification or assertions if needed
   });
-
 }
