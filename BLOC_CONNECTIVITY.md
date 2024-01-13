@@ -1,6 +1,6 @@
-# Example for bloc_connectivity
+# bloc_connectivity
 
-This example demonstrates the usage of the `NetworkChecker` widget from the `bloc_connectivity` package.
+A Flutter package that provides a `NetworkChecker` widget to handle network connectivity in your app.
 
 ## Getting Started
 
@@ -9,15 +9,15 @@ This example demonstrates the usage of the `NetworkChecker` widget from the `blo
 ```yaml
 dependencies:
   bloc_connectivity: ^1.0.0
-```
 
+```
 2. Import the package in your Dart code:
 ```dart
-
 import 'package:bloc_connectivity/bloc_connectivity.dart';
-Use the NetworkChecker widget to handle network connectivity in your app:
-dart
-Copy code
+```
+3. Use the NetworkChecker widget to handle network connectivity in your app:
+```dart
+
 import 'package:flutter/material.dart';
 import 'package:bloc_connectivity/bloc_connectivity.dart';
 
@@ -40,8 +40,11 @@ void main() {
     ),
   );
 }
-
-// ... rest of your code ...
 ```
-4. Feel free to adjust the structure based on your preferences and the complexity of your documentation and example.
+4. statFor more detailed examples, see example/README.md.
+
+
+
+
+
 

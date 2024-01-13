@@ -1,4 +1,5 @@
 import 'package:bloc_connectivity/network_checker.dart';
+import 'package:bloc_connectivity/networking/bloc/network_connectivity_state.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:bloc_connectivity/networking/bloc/network_connectivity_bloc.dart';
 import 'package:flutter/material.dart';

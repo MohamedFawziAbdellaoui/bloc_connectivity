@@ -1,3 +1,8 @@
-## 0.0.1
+# 0.1.1
 
-* TODO: Describe initial release.
+* Add Documentation and examples
+
+# 0.0.1
+
+* Initial development release.
+
